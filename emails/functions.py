@@ -16,7 +16,7 @@ env.read_env()
 
 EMAIL = env.str('USER_EMAIL')
 PASSWORD = env.str('USER_PASSWORD')
-SERVER = 'imap.mail.ru'
+SERVER = env.str('EMAIL_SERVER')
 
 
 def connection():

@@ -1,6 +1,5 @@
 # Автоподнятие резюме на Headhunter
 Позволяет автоматически поднимать первое (самое верхнее) резюме на Headhunter.<br>
-_UPD 9.10.2022: уберу хардкод с названием email-директории и mail.ru в следующих обновлениях._
 
 ### Необходимо:
 - ОС семейства Unix
@@ -13,6 +12,7 @@ _UPD 9.10.2022: уберу хардкод с названием email-дирек
     ```text
     USER_EMAIL=your@mail.ru
     USER_PASSWORD=your_APP_password_in_email
+    EMAIL_SERVER=imap.mail.ru
     ```
 
 ## Запуск
